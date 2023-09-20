@@ -1,1 +1,51 @@
 @charset "UTF-8";
+
+:root {
+    /*Colors*/
+    --highlight-color: #C9F7AE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    padding: .4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--highlight-color);
+
+}
+
+.nav-logo-img {
+    width: 50px;
+}
+
+.nav-items-container button {
+    margin: 0 .2rem;
+    border: none;
+    background-color: var(--highlight-color);
+}
+
+.tittle-container {
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
