@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
     <!--Header-->
     <header class="header">
         <nav class="navbar">
@@ -33,6 +32,43 @@
             <h1 class="tittle">Welcome to the Monkey Money Converter!</h1>
         </div>
     </header>
+
+    <!--Main-->
+    <main class="main">
+        <section class="form-semantics-container">
+            <form class="form-container">
+                
+                <!--From-->
+                <div class="form-subcontainer">
+                    <p class="form-text">From:</p>
+                    <select name="from" id="from">
+                        <option value="">Choose a Coin</option>
+                        <option value="Dollar">US$</option>
+                        <option value="Euro">&euro;</option>
+                        <option value="Real">R$</option>
+                    </select>
+                </div>
+
+                <!--To-->
+                <div class="form-subcontainer">
+                    <p class="form-text">To:</p>
+                    <select name="to" id="to">
+                        <option value="">Choose a Coin</option>
+                        <option value="Dollar">US$</option>
+                        <option value="Euro">&euro;</option>
+                        <option value="Real">R$</option>
+                    </select>
+                </div>
+            </form>
+
+            <img src="assets/monkey-go.png" alt="Monkey" class="monkey-img">
+
+            <div class="output-container">
+                <p class="output-text">Converted Value:</p>
+                <p class="output" data-output>...</p>
+            </div>
+        </section>
+    </main>
 
     <!--Footer-->
     <footer class="footer">
