@@ -35,29 +35,31 @@
 
     <!--Main-->
     <main class="main">
-        <section class="form-semantics-container">
-            <form class="form-container">
+        <section class="section">
+            <form class="form">
                 
                 <!--From-->
                 <div class="form-subcontainer">
                     <p class="form-text">From:</p>
-                    <select name="from" id="from">
+                    <select name="from" class="form-select" data-select-from>
                         <option value="">Choose a Coin</option>
                         <option value="Dollar">US$</option>
                         <option value="Euro">&euro;</option>
                         <option value="Real">R$</option>
                     </select>
+                    <input type="number" name="from" class="form-input" data-inFrom placeholder="Numbers Only">
                 </div>
 
                 <!--To-->
                 <div class="form-subcontainer">
                     <p class="form-text">To:</p>
-                    <select name="to" id="to">
+                    <select name="to" class="form-select" data-select-to>
                         <option value="">Choose a Coin</option>
                         <option value="Dollar">US$</option>
                         <option value="Euro">&euro;</option>
                         <option value="Real">R$</option>
                     </select>
+                    <input type="number" name="to" class="form-input" data-inTo placeholder="Numbers Only">
                 </div>
             </form>
 

@@ -21,13 +21,12 @@
 }
 
 body {
-    position: relative;
     height: 100vh;
 }
 
 /*FlexBox*/
 
-body, .header, .footer {
+body, .header, .footer, .section, .form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -36,11 +35,6 @@ body, .header, .footer {
 }
 
 /*Header*/
-
-.header {
-    position: absolute;
-    top: 0;
-}
 
 .navbar {
     width: 100%;
@@ -83,11 +77,40 @@ body, .header, .footer {
     font-weight: bold;
 }
 
+/*Main*/
+
+.main {
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+    background-color: var(--highlight-color);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px var(--shadow);
+}
+
+.section {
+    padding: 1rem;
+    gap: 2rem;    
+}
+
+.form {
+    gap: 1.5rem;
+}
+
+.form-text {
+    padding-bottom: .5rem;
+}
+
+.form-select, .form-input {
+    width: 40%;
+    padding: .5rem .2rem;
+    border: 1px solid rgba(0, 0, 0, 0.566);
+    border-radius: 5px;
+}
+
 /*Footer*/
 
 .footer {
-    position: absolute;
-    bottom: 0;
     height: 2.5rem;
     background-color: var(--highlight-color);
 }
