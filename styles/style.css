@@ -57,6 +57,10 @@ body, .header, .footer, .section, .form {
     background-color: var(--highlight-color);
 }
 
+.button {
+    cursor: pointer;
+}
+
 .tittle-container {
     width: auto;
     margin: 0 auto;
@@ -97,15 +101,33 @@ body, .header, .footer, .section, .form {
     gap: 1.5rem;
 }
 
+.form-subcontainer {
+    text-align: center;
+}
+
 .form-text {
     padding-bottom: .5rem;
+    text-align: start;
 }
 
 .form-select, .form-input {
-    width: 40%;
+    width: 45%;
     padding: .5rem .2rem;
     border: 1px solid rgba(0, 0, 0, 0.566);
     border-radius: 5px;
+}
+
+.output-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px var(--shadow);
+}
+
+.output-tittle {
+    align-self: flex-start;
 }
 
 /*Footer*/
@@ -126,4 +148,26 @@ body, .header, .footer, .section, .form {
 
 .footer-link:hover {
     text-decoration: underline;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 1028px) {
+
+    /*Header*/
+
+    .tittle-container {
+        flex-direction: column;
+    }
+
+    /*Main*/
+
+    .main {
+        width: 55%;
+        margin: auto;
+    }
+
+    .output-container {
+        width: 30%;
+    }
 }
