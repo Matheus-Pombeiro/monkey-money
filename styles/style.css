@@ -7,6 +7,7 @@
 :root {
     /*Colors*/
     --highlight-color: #C9F7AE;
+    --dark-mode: #222;
     --shadow: #0000003a;
 
     /*Fonts*/
@@ -22,6 +23,15 @@
 
 body {
     height: 100vh;
+    transition: all ease .3s;
+}
+
+.dark {
+    background-color: var(--dark-mode);
+}
+
+.dark h1 {
+    color: white;
 }
 
 /*FlexBox*/

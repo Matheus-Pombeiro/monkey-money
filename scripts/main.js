@@ -1,3 +1,6 @@
+// Import functions
+import themeChange from "./theme.js";
+
 // Get elements from HTML
 const form = document.querySelector("form");                    // Form
 const submit = document.querySelector("[data-submit]");         // Submit
@@ -5,6 +8,7 @@ const from = document.querySelector("[data-select-from]");      // From
 const inFrom = document.querySelector("[data-inFrom]");
 const to = document.querySelector("[data-select-to]");          // To
 const output = document.querySelector("[data-output]");         // Output
+const theme = document.querySelector("[data-theme-btn]");       // Theme button
 
 form.addEventListener("submit", (e) => {
 
@@ -17,7 +21,7 @@ form.addEventListener("submit", (e) => {
     let rate;               // Declare a rate to calculate the converted value
     let convertedValue;     // Declare a consto to get the converted value
     
-    if (selectFrom == "Dollar" && selectTo == "Euro") {
+    if (selectFrom == "Dollar" && selectTo == "Euro") {     // Money conversion logic
 
         rate =  1.053;
         convertedValue = valueFrom / rate;
@@ -53,11 +57,12 @@ form.addEventListener("submit", (e) => {
         convertedValue = valueFrom / rate;
         output.innerHTML = `&euro; ${convertedValue.toFixed(2)}`;
 
-    } else {
+    } else {        // If the currencies be equal...
 
         alert("Choose different currencies to continue, please!")
 
     }
 
+});
 
-})
+themeChange(theme);
