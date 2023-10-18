@@ -20,10 +20,7 @@
                     <img src="assets/light-button.png" alt="Theme Button" class="nav-theme-img" data-theme-btn>
                 </button>
                 
-                <button class="button" data-language-btn>
-                    <img src="assets/english-button.png" alt="Language Button" class="nav-language-img">
-                </button>
-                
+                <div class="gtranslate_wrapper"></div>                
             </div>
         </nav>
 
@@ -44,10 +41,10 @@
                     <div class="form-subcontainer">
                         <p class="form-text">From:</p>
                         <select name="from" class="form-select" data-select-from>
-                            <option value="">Choose a Coin</option>
-                            <option value="Dollar">US$</option>
-                            <option value="Euro">&euro;</option>
-                            <option value="Real">R$</option>
+                            <option value="">Coin</option>
+                            <option value="Dollar">USD</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Real">BRL</option>
                         </select>
                     </div>
 
@@ -55,10 +52,10 @@
                     <div class="form-subcontainer">
                         <p class="form-text">To:</p>
                         <select name="to" class="form-select" data-select-to>
-                            <option value="">Choose a Coin</option>
-                            <option value="Dollar">US$</option>
-                            <option value="Euro">&euro;</option>
-                            <option value="Real">R$</option>
+                            <option value="">Coin</option>
+                            <option value="Dollar">USD</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Real">BRL</option>
                         </select>
                     </div>
                 </div>
@@ -88,5 +85,7 @@
     
     <!--JavaScript-->
     <script type="module" src="scripts/main.js"></script>
+    <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"languages":["en","fr","de","es","pt"],"wrapper_selector":".gtranslate_wrapper","alt_flags":{"en":"usa","pt":"brazil"}}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 </body>
 </html>
