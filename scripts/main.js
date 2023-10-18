@@ -59,7 +59,7 @@ form.addEventListener("submit", (e) => {
 
     } else {        // If the currencies be equal...
 
-        alert("Choose different currencies to continue, please!")
+        output.innerHTML = "Choose different currencies to continue, please!";
 
     }
 
