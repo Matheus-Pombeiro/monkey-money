@@ -13,6 +13,7 @@ const modal = document.querySelector("[data-modal]");           // Modal (pop-up
 const closeModal = document.querySelector("[data-modal-close"); // Close modal button
 
 openModal(modal, closeModal);       // Open and close the modal
+themeChange(theme);                 // Call the change theme function
 
 form.addEventListener("submit", (e) => {
 
@@ -68,5 +69,3 @@ form.addEventListener("submit", (e) => {
     }
 
 });
-
-themeChange(theme);
