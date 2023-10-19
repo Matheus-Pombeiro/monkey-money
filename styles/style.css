@@ -63,6 +63,11 @@ body, .header, .footer, .section, .form {
     width: 40px;
 }
 
+.nav-items-container {
+    display: flex;
+    gap: .8rem;
+}
+
 .nav-items-container button {
     margin: 0 .2rem;
     border: none;
@@ -71,6 +76,15 @@ body, .header, .footer, .section, .form {
 
 .button {
     cursor: pointer;
+}
+
+.nav-theme-img:hover {
+    transform: scale(1.05);
+}
+
+.translate {
+    display: flex;
+    gap: .3rem;
 }
 
 .tittle-container {
@@ -142,7 +156,7 @@ body, .header, .footer, .section, .form {
 
 .form-input {
     width: 45%;
-    padding-left: .6rem;
+    padding-left: .4rem;
 }
 
 .buttons-container {
@@ -181,12 +195,11 @@ body, .header, .footer, .section, .form {
 /*Footer*/
 
 .footer {
-    height: 2rem;
+    height: 2.4rem;
     background-color: var(--highlight-color);
 }
 
 .footer-text {
-    font-size: .8rem;
     text-align: center;
 }
 
@@ -218,16 +231,6 @@ body, .header, .footer, .section, .form {
 
     .output-container {
         width: 50%;
-    }
-
-    /*Footer*/
-
-    .footer {
-        height: 2.4rem;
-    }
-
-    .footer-text {
-        font-size: 1rem;
     }
 
 }
