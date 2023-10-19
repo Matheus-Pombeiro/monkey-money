@@ -1,5 +1,6 @@
 // Import functions
 import themeChange from "./theme.js";
+import openModal from "./modal.js";
 
 // Get elements from HTML
 const form = document.querySelector("form");                    // Form
@@ -9,6 +10,10 @@ const inFrom = document.querySelector("[data-inFrom]");
 const to = document.querySelector("[data-select-to]");          // To
 const output = document.querySelector("[data-output]");         // Output
 const theme = document.querySelector("[data-theme-btn]");       // Theme button
+const modal = document.querySelector("[data-modal]");           // Modal (pop-up)
+const closeModal = document.querySelector("[data-modal-close"); // Close modal button
+
+openModal(modal, closeModal);       // Open and close the modal
 
 form.addEventListener("submit", (e) => {
 
