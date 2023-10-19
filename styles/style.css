@@ -53,6 +53,7 @@ body, .header, .footer, .section, .form, .modal-container {
     width: 90%;
     margin: auto;
     padding: 1.5rem;
+    box-shadow: 0 0 1rem var(--shadow);
     border: none;
     border-radius: 10px;
 }
