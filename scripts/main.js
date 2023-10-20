@@ -12,7 +12,7 @@ const theme = document.querySelector("[data-theme-btn]");       // Theme button
 const modal = document.querySelector("[data-modal]");           // Modal (pop-up)
 const closeModal = document.querySelector("[data-modal-close"); // Close modal button
 
-themeChange(theme);                 // Call the change theme function+
+themeChange(theme);                 // Call the change theme function
 openModal(modal, closeModal);       // Open and close the modal
 
 form.addEventListener("submit", (e) => {
