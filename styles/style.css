@@ -24,6 +24,7 @@
 
 body {
     height: 100vh;
+    gap: 1.5rem;
     transition: all ease .3s;
 }
 
@@ -158,7 +159,7 @@ body, .header, .footer, .section, .form, .modal-container {
 
 .main {
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 0;
     background-color: var(--highlight-color);
     border-radius: 10px;
