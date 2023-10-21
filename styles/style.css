@@ -23,8 +23,11 @@
 }
 
 body {
-    height: 100vh;
-    gap: 1.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5.55rem;
     transition: all ease .3s;
 }
 
@@ -40,7 +43,7 @@ body {
 
 /*FlexBox*/
 
-body, .header, .footer, .section, .form, .modal-container {
+.header, .footer, .section, .form, .modal-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -100,8 +103,13 @@ body, .header, .footer, .section, .form, .modal-container {
 
 /*Header*/
 
+.header {
+    gap: 2.5rem;
+}
+
 .navbar {
     width: 100%;
+    height: 4.5rem;
     padding: .1rem .4rem;
     display: flex;
     flex-direction: row;
@@ -117,6 +125,9 @@ body, .header, .footer, .section, .form, .modal-container {
 
 .nav-items-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     gap: .8rem;
 }
 
@@ -138,7 +149,7 @@ body, .header, .footer, .section, .form, .modal-container {
 .tittle-container {
     width: auto;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -243,7 +254,7 @@ body, .header, .footer, .section, .form, .modal-container {
 /*Footer*/
 
 .footer {
-    height: 2.4rem;
+    height: 4.5rem;
     background-color: var(--highlight-color);
 }
 
@@ -292,6 +303,12 @@ body, .header, .footer, .section, .form, .modal-container {
 /*Desktop*/
 
 @media screen and (min-width: 1028px) {
+
+    /*Body*/
+
+    body {
+        gap: 2rem;
+    }
 
     /*Modal*/
 
