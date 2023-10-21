@@ -119,14 +119,10 @@ body, .header, .footer, .section, .form, .modal-container {
     gap: .8rem;
 }
 
-.nav-items-container button {
+.nav-theme-img {
     margin: 0 .2rem;
-    border: none;
-    background-color: var(--highlight-color);
-}
-
-.button {
     cursor: pointer;
+    transition: all ease .3s;
 }
 
 .nav-theme-img:hover {
