@@ -7,7 +7,7 @@
 
  Clickink by the following link you can check the <a href="https://matheus-pombeiro.github.io/monkey-money/" target="_blank" rel="noreferrer noopener">Monkey Money Converter</a>.
 
- Author's Name: Matheus V. G. Pombeiro
- Date of this Post: 10/21/2023 (mm-dd-yyyy)
- Author's Education Degree: Graduate in Accounting Sciences and Software Engineering Student
+ Author's Name: Matheus V. G. Pombeiro <hr>
+ Date of this Post: 10/21/2023 (mm-dd-yyyy) <hr>
+ Author's Education Degree: Graduate in Accounting Sciences and Software Engineering Student <hr>
  Author's LinkedIn Profile (link): <a href="https://www.linkedin.com/in/matheus-pombeiro/" target="_blank" rel="noreferrer noopener">Matheus Pombeiro LinkedIn</a>
