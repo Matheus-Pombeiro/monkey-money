@@ -5,7 +5,7 @@
 
  This project has a changing theme and a translate systems. Furthermore, it has a modal (pop-up) that contains a link to <a href="https://matheus-pombeiro.github.io/meus-projetos-autorais/" target="_blank" rel="noreferrer noopener">author's other authorial projects</a>. To use the Monkey Money App no need to install programs other than the browser.
 
- Clickink by the following link you can check the <a href="https://matheus-pombeiro.github.io/monkey-money/" target="_blank" rel="noreferrer noopener">Monkey Money Converter</a>.
+ Clickink on the following link you can check the <a href="https://matheus-pombeiro.github.io/monkey-money/" target="_blank" rel="noreferrer noopener">Monkey Money Converter</a>.
 
  Author's Name: Matheus V. G. Pombeiro <br>
  Date of this Post: 10/21/2023 (mm-dd-yyyy) <br>
